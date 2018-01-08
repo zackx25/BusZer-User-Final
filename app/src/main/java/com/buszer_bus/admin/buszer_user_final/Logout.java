@@ -46,10 +46,16 @@ public class Logout extends MainActivity {
                         loader.setMessage(" Signing Out...");
                         loader.show();
                         finalFirebaseAuth.signOut();
+
                         Intent exit = new Intent(context,Loginpage.class)
                                   .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        context.startActivity(exit);
+                                  exit.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        exit.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK); // clears all previous activities task
                         finish();
+                        context.startActivity(exit);
+
+
+
 
 
                     }

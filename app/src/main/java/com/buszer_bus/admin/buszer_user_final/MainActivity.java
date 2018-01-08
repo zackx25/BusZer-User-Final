@@ -412,6 +412,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                   Logout logut = new Logout(this.getApplicationContext(), MainActivity.this);
                      logut.logout_dialog(loader,firebaseAuth);
 
+
                 break;
         }
         return false;

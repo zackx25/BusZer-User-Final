@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loginpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:scaleType="fitXY"
+    android:paddingTop="30dp"
+    tools:context="com.buszer_bus.admin.buszer_user_final.Loginpage"
+    android:background="@drawable/background1"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout1"
+        android:paddingTop="0dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+       >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            app:srcCompat="@drawable/busfinal"
+            android:layout_marginBottom="100dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="@string/password"
+            android:ems="10"
+            android:id="@+id/password"
+            android:background="@drawable/rounded_edittext"
+            android:paddingStart="10dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            />
+
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/access"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/grey"
+        android:text="@string/login"/>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/don_t_have_an_account_sign_up_here"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="15dp" />
+
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

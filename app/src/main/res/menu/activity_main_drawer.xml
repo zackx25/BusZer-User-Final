@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/account"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="My Account"/>
+
+    <item android:id="@+id/inbox"
+        android:icon="@drawable/ic_notifications_active_black_24dp"
+        android:title="Notifications"/>
+
+    <item android:id="@+id/write"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Fare Rate"/>
+
+    <item android:id="@+id/report_passenger"
+        android:icon="@drawable/ic_dvr_black_24dp"
+        android:title="Report Passenger"/>
+
+    <item android:id="@+id/log_out"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Log-out"/>
+</menu>

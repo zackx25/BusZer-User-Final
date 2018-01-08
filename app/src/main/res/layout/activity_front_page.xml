@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_front_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.buszer_bus.admin.buszer_user_final.Front_page">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:padding="20dp"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:padding="20dp"
+            android:text="Sign Up"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

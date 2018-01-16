@@ -1,7 +1,6 @@
 # Realtime Android Location Tracker using Firebase.
 
-The app tracks the realtime location a the bus app. I created a separte application for the bus which sends it's coordinates to firebase and 
-fetched by the commuter app.
+The app tracks the realtime location a the bus app. I created a separate application for the bus which sends it's coordinates to firebase and fetched by the commuter app.
 
 Below is the sample of the commuter app.
 
@@ -30,6 +29,10 @@ Email Verification
 
 ### Version
 1.0
+
+### Android Version Tested:
+Lollipop
+Marshmallow
 
 ### Components:
 Backend: Firebase (Realtime DB and Auth)
